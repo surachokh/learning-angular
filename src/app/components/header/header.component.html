@@ -1,8 +1,28 @@
-
-
 <mat-drawer-container class="example-container" autosize>
   <mat-drawer #drawer class="example-sidenav" mode="side">
-    <p>Test</p>
+    <div fxLayout="column">
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        Home
+      </button>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        Cart
+      </button>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        Home
+      </button>
+    </div>
   </mat-drawer>
 
   <mat-toolbar>
@@ -14,7 +34,7 @@
     >
       <mat-icon>menu</mat-icon>
     </button>
-    <span>My App</span>
+    <span>Book Store</span>
     <span class="example-spacer"></span>
     <button
       mat-icon-button
@@ -31,7 +51,5 @@
       <mat-icon>share</mat-icon>
     </button>
   </mat-toolbar>
-  <div class="content">
-
-  </div>
+  <div class="content"></div>
 </mat-drawer-container>
